@@ -1,0 +1,50 @@
+﻿<Window x:Class="CashManager.TranslationsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CashManager"
+        mc:Ignorable="d"
+        Title="TranslationsWindow" Height="600" Width="400">
+    <Grid Margin="0,0,-0.4,0.4">
+        <Grid Background="DarkOrange" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="394" Margin="0,0,-0.4,0">
+            <Label Content="≡" FontSize="32" Foreground="White" HorizontalAlignment="Left" Margin="13,6,0,0" VerticalAlignment="Top"/>
+            <Label Content="Переводы" FontSize="26" Foreground="White" HorizontalAlignment="Left" Margin="48,12,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid Background="Orange" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="394" Margin="0,75,-0.4,0">
+            <Label Content="С счета:" FontSize="26" Foreground="White" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+            <Label Content="Наличные" FontSize="26" Foreground="White" HorizontalAlignment="Left" Margin="117,10,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid Background="Orange" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="394" Margin="0,150,-0.4,0">
+            <Label Content="На счет:" FontSize="26" Foreground="White" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+            <Label Content="Приват Банк" FontSize="26" Foreground="White" HorizontalAlignment="Left" Margin="118,10,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid Background="Orange" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="394" Margin="0,227,0,0">
+            <Label Content="Сумма:" FontSize="26" Foreground="White" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+            <Button Content="→" FontSize="26" FontWeight="Bold" HorizontalAlignment="Left" Margin="259,15,0,0" VerticalAlignment="Top" Width="47" Height="45"/>
+            <TextBox HorizontalAlignment="Left" Background="LightGray" Height="44" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Margin="110,15,0,0"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Background="Orange" Height="13" Margin="0,302,0,0" VerticalAlignment="Top" Width="394"/>
+        <Grid HorizontalAlignment="Left" Height="103" VerticalAlignment="Top" Width="394" Margin="0,320,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="188*"/>
+                <ColumnDefinition Width="9*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Наличные" FontSize="26"  HorizontalAlignment="Left" Margin="32,10,0,0" VerticalAlignment="Top"/>
+            <Label Content="Приват Банк" FontSize="26"  HorizontalAlignment="Left" Margin="32,55,0,0" VerticalAlignment="Top"/>
+            <Label Content="2 000 грн" FontSize="26"  HorizontalAlignment="Left" Margin="274,34,-0.4,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+            <Label Content="↓" FontSize="30"  HorizontalAlignment="Left" Margin="10,29,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="103" VerticalAlignment="Top" Width="394" Margin="0,435,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="188*"/>
+                <ColumnDefinition Width="9*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Ощад Банк" FontSize="26"  HorizontalAlignment="Left" Margin="32,10,0,0" VerticalAlignment="Top"/>
+            <Label Content="1 300 грн" FontSize="26"  HorizontalAlignment="Left" Margin="274,34,-0.4,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+            <Label Content="↓" FontSize="30"  HorizontalAlignment="Left" Margin="10,29,0,0" VerticalAlignment="Top"/>
+            <Label Content="Приват Банк" FontSize="26"  HorizontalAlignment="Left" Margin="32,58,0,0" VerticalAlignment="Top"/>
+        </Grid>
+
+    </Grid>
+</Window>

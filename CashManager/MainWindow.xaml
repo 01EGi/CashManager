@@ -1,0 +1,17 @@
+﻿<Window x:Class="CashManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CashManager"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="400">
+    <Grid>
+        <Button Content="Вход" FontWeight="Bold" FontSize="20" HorizontalAlignment="Left" Margin="120,438,0,0" VerticalAlignment="Top" Width="150" Height="38"/>
+        <Label Content="Номер Телефона" FontWeight="Bold" HorizontalAlignment="Left" Margin="104,241,0,0" FontSize="20" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="32" Margin="106,278,0,0" TextWrapping="Wrap" Text="" Background="DarkOrange" VerticalAlignment="Top" Width="173"/>
+        <Label Content="Пароль" FontWeight="Bold" HorizontalAlignment="Left" Margin="104,314,0,0" FontSize="20" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="32" Margin="106,352,0,0" TextWrapping="Wrap" Text="" Background="DarkOrange" VerticalAlignment="Top" Width="173"/>
+        <Label Content="CashManager" FontWeight="Bold" HorizontalAlignment="Left" Margin="68,32,0,0" FontSize="40" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

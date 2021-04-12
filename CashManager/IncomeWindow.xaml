@@ -1,0 +1,68 @@
+﻿<Window x:Class="CashManager.IncomeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CashManager"
+        mc:Ignorable="d"
+        Title="IncomeWindow" Height="600" Width="400">
+
+    <Grid>
+        <Grid Background="DarkOrange" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="394" Margin="0,0,-0.4,0">
+            <Label Content="≡" FontSize="32" Foreground="White" HorizontalAlignment="Left" Margin="13,6,0,0" VerticalAlignment="Top"/>
+            <Label Content="Доходы" FontSize="26" Foreground="White" HorizontalAlignment="Left" Margin="48,12,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid Background="Orange" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="394" Margin="0,70,-0.4,0">
+            <Label Content="Остаток на счету: " FontSize="26" Foreground="White" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+            <Label Content="1050 грн" FontSize="26" Foreground="White" HorizontalAlignment="Left" Margin="225,12,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Label Content="Введите Сумму:" FontSize="26" HorizontalAlignment="Left" Margin="20,148,0,0" VerticalAlignment="Top"/>
+
+        <TextBox HorizontalAlignment="Left" Background="LightGray" Height="36" TextWrapping="Wrap" VerticalAlignment="Top" Width="108" Margin="222,157,0,0"/>
+        <Button Content="→" FontSize="24" FontWeight="Bold" HorizontalAlignment="Left" Margin="335,157,0,0" VerticalAlignment="Top" Width="38" Height="36"/>
+
+        <Grid Margin="20,209,293,254" >
+            <Image HorizontalAlignment="Left" Height="75" Width="81"  VerticalAlignment="Top" Source="Res/piggy-bank.png" Margin="0,0,-0.4,0"/>
+            <Label Content="Зарплата" FontWeight="Bold" FontSize="14" HorizontalAlignment="Left" Margin="5,75,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.432,0.344"/>
+        </Grid>
+
+        <Grid Margin="194,209,119,254" >
+            <Image HorizontalAlignment="Left" Height="75" Width="81"  VerticalAlignment="Top" Source="Res/portfolio.png" Margin="5,0,-5.4,0"/>
+            <Label Content="Бизнес" FontWeight="Bold" FontSize="14" HorizontalAlignment="Left" Margin="14,75,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.432,0.344"/>
+        </Grid>
+        <Grid Margin="101,209,204.6,254.4" >
+            <Image HorizontalAlignment="Left" Height="75" Width="81"  VerticalAlignment="Top" Source="Res/giftbox.png" Margin="5,0,0,0"/>
+            <Label Content="Подарки" FontWeight="Bold" FontSize="14" HorizontalAlignment="Left" Margin="8,75,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.432,0.344"/>
+        </Grid>
+        <Grid Margin="292,209,9.6,254.4" >
+            <Image HorizontalAlignment="Left" Height="75" Width="81"  VerticalAlignment="Top" Source="Res/dollar.png" Margin="1,0,0,0"/>
+            <Label Content="Дивиденты" FontWeight="Bold" FontSize="14" HorizontalAlignment="Left" Margin="-8,75,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.432,0.344"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Background="Orange" Height="13" Margin="0,321,-0.4,0" VerticalAlignment="Top" Width="394"/>
+
+        <Grid Margin="11,342,8.6,172.4" >
+            <Image HorizontalAlignment="Left" Height="50" Width="54"  VerticalAlignment="Top" Source="Res/giftbox.png" Margin="0,-1,0,0"/>
+            <Label Content="Подарки" FontWeight="Bold" FontSize="20" HorizontalAlignment="Left" Margin="54,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.432,0.344"/>
+            <Label Content="+500 грн" FontWeight="Bold" FontSize="20" HorizontalAlignment="Left" Margin="276,9,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.432,0.344"/>
+        </Grid>
+
+        <Grid Margin="11,394,9.6,121.4" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="223*"/>
+                <ColumnDefinition Width="150*"/>
+            </Grid.ColumnDefinitions>
+            <Image HorizontalAlignment="Left" Height="50" Width="54"  VerticalAlignment="Top" Source="Res/dollar.png" Margin="0,-1,0,0"/>
+            <Label Content="Дивиденты" FontWeight="Bold" FontSize="20" HorizontalAlignment="Left" Margin="54,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.432,0.344"/>
+            <Label Content="+2000 грн" FontWeight="Bold" FontSize="20" HorizontalAlignment="Left" Margin="40.8,8,-0.2,0" VerticalAlignment="Top" RenderTransformOrigin="2.432,0.344" Grid.Column="1"/>
+        </Grid>
+        <Grid Margin="10,449,10.6,66.4" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="223*"/>
+                <ColumnDefinition Width="150*"/>
+            </Grid.ColumnDefinitions>
+            <Image HorizontalAlignment="Left" Height="50" Width="54"  VerticalAlignment="Top" Source="Res/piggy-bank.png" Margin="0,-1,0,0"/>
+            <Label Content="Зарплата" FontWeight="Bold" FontSize="20" HorizontalAlignment="Left" Margin="54,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.432,0.344"/>
+            <Label Content="+40 000 грн" FontWeight="Bold" FontSize="20" HorizontalAlignment="Left" Margin="24.8,8,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.432,0.344" Grid.Column="1"/>
+        </Grid>
+    </Grid>
+</Window>
